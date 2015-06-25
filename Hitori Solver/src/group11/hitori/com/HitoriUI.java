@@ -129,7 +129,7 @@ public class HitoriUI extends JFrame implements ActionListener, ItemListener{
 		newGame.setBackground(new Color(102, 0, 204));
 		newGame.setFont(new Font("Segoe UI", Font.BOLD, 30));
 		newGame.setForeground(new Color(255, 255, 255));
-		newGame.setLocation(15, 20);
+		newGame.setLocation(15, 15);
 		newGame.setBorderPainted(false);
 		newGame.addActionListener(this);
 		
@@ -151,7 +151,7 @@ public class HitoriUI extends JFrame implements ActionListener, ItemListener{
 		solver1.setBackground(new Color(102, 0, 204));
 		solver1.setFont(new Font("Segoe UI", Font.BOLD, 16));
 		solver1.setForeground(new Color(255, 255, 255));
-		solver1.setLocation(40, 130);
+		solver1.setLocation(15, 130);
 		solver1.setBorderPainted(false);
 		solver1.setToolTipText("<html><b style='background-color: rgb(255, 255, 255);font-face:Segoe UI;color: rgb(0, 0, 0);'>"
 				+ "Chains and Cycles</b></html>");
@@ -163,7 +163,7 @@ public class HitoriUI extends JFrame implements ActionListener, ItemListener{
 		solver2.setBackground(new Color(102, 0, 204));
 		solver2.setFont(new Font("Segoe UI", Font.BOLD, 16));
 		solver2.setForeground(new Color(255, 255, 255));
-		solver2.setLocation(150, 130);
+		solver2.setLocation(180, 130);
 		solver2.setBorderPainted(false);
 		solver2.setToolTipText("<html><b style='background-color: rgb(255, 255, 255);font-face:Segoe UI;color: rgb(0, 0, 0);'>"
 				+ "Connectivity</b></html></b></html>");
@@ -175,7 +175,7 @@ public class HitoriUI extends JFrame implements ActionListener, ItemListener{
 		zoom.setBackground(new Color(148, 170, 214));
 		zoom.setFont(new Font("Segoe UI", Font.BOLD, 10));
 		zoom.setForeground(new Color(255, 255, 255));
-		zoom.setLocation(164, 185);
+		zoom.setLocation(195, 185);
 		zoom.setBorderPainted(false);
 		zoom.setEnabled(false);
 		zoom.addActionListener(this);
